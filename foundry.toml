@@ -1,0 +1,11 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+# difference exists from 0.7.6 up to 0.8.26
+solc = "0.8.26"
+# flip this and run forge test -vv to see the difference
+# via_ir = true
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
